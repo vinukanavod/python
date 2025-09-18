@@ -5,3 +5,9 @@ class Person:
 
     def display_info(self):
         print(f"Name: {self.name}, Age: {self.age}")
+
+    def change_age(self, new_age):
+        self.age = new_age
+
+    def change_year(self, new_year):
+        self.year = new_year
