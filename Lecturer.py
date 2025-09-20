@@ -9,3 +9,6 @@ class Lecturer(Faculty):
     def display_info(self):
         super().display_info()
         print(f"Subject: {self.subject}")
+
+    def get_responsibilities(self):
+        return "Teach lectures, prepare materials"

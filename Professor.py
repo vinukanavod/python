@@ -8,4 +8,7 @@ class Professor(Faculty):
 
     def display_info(self):
         super().display_info()
-        print(f"Department: {self.department}")
+        print(f"Department: {self.department} ")
+
+    def get_responsibilities(self):
+        return "Teach advanced courses, supervise research"

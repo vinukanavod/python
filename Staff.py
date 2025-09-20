@@ -9,3 +9,6 @@ class Staff(Person):
     def display_info(self):
         super().display_info()
         print(f"Staff ID: {self.staff_id}")
+
+    def get_responsibilities(self):
+        return "Administrative support, manage records"

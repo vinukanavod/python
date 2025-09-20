@@ -9,3 +9,6 @@ class TA(Faculty):
     def display_info(self):
         super().display_info()
         print(f"Assisting Course: {self.assisting_course}")
+
+    def get_responsibilities(self):
+        return "Assist lectures, hold labs, grade assignments"
